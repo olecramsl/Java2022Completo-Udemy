@@ -7,8 +7,7 @@ public class Usuario {
 
     @Override
     public boolean equals(Object obj) {
-        if (obj instanceof Usuario) {
-            Usuario outro = (Usuario) obj;
+        if (obj instanceof Usuario outro) {
 
             boolean nomeIgual = outro.nome == this.nome;
             boolean emailIgual = outro.email == this.email;
