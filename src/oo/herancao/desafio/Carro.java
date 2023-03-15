@@ -11,13 +11,13 @@ public class Carro {
     }
 
     public int getVelocidadeAtual() {
-
         return velocidadeAtual;
     }
 
     public void acelerar() {
-
-        velocidadeAtual += ACELERACAO;
+        if (velocidadeAtual + ACELERACAO <= VELOCIDADE_MAXIMA) {
+            velocidadeAtual += ACELERACAO;
+        }
     }
 
     public void frear() {
