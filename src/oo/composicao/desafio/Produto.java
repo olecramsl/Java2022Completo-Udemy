@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class Produto {
     private String nome;
     private double valor;
+    private double desconto;
 
     public String getNome() {
         return nome;
@@ -22,8 +23,17 @@ public class Produto {
         this.valor = valor;
     }
 
-    public Produto(String nome, double valor) {
+    public double getDesconto() {
+        return desconto;
+    }
+
+    public void setDesconto(double desconto) {
+        this.desconto = desconto;
+    }
+
+    public Produto(String nome, double valor, double desconto) {
         this.nome = nome;
         this.valor = valor;
+        this.desconto = desconto;
     }
 }

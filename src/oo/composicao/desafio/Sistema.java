@@ -3,10 +3,10 @@ package oo.composicao.desafio;
 import java.util.ArrayList;
 public class Sistema {
     public static void main(String[] args) {
-        Produto prod1 = new Produto("Sabonete", 12.00);
-        Produto prod2 = new Produto("Desodorante", 20.00);
-        Produto prod3 = new Produto("Perfume", 150.00);
-        Produto prod4 = new Produto("Grão de bico", 6.00);
+        Produto prod1 = new Produto("Sabonete", 12.00, 0.5);
+        Produto prod2 = new Produto("Desodorante", 20.00, 0.3);
+        Produto prod3 = new Produto("Perfume", 150.00, 0.1);
+        Produto prod4 = new Produto("Grão de bico", 6.00, 0.15);
 
         Cliente cli1 = new Cliente("Marcelo");
         Cliente cli2 = new Cliente("Laura");
